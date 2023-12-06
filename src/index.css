@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply text-[1rem] bg-yellow-400 border-transparent p-2 rounded-lg capitalize hover:bg-yellow-600;
+  }
+}
